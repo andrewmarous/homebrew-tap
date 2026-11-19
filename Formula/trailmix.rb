@@ -1,28 +1,28 @@
 class Trailmix < Formula
   desc "Shared Markdown memory for AI agents"
   homepage "https://github.com/andrewmarous/trailmix"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/andrewmarous/trailmix/releases/download/v0.2.0/trailmix_0.2.0_darwin_arm64.tar.gz"
-      sha256 "ad7ce743ddcdb5ed15de33e4520ed2568e769268ae681dcee1b297ea13c8c576"
+      url "https://github.com/andrewmarous/trailmix/releases/download/v0.2.1/trailmix_0.2.1_darwin_arm64.tar.gz"
+      sha256 "f007e11a3251a106d0bf79a05c6685e487a05866989295595e178f8f2ee349ad"
     end
     on_intel do
-      url "https://github.com/andrewmarous/trailmix/releases/download/v0.2.0/trailmix_0.2.0_darwin_amd64.tar.gz"
-      sha256 "0b6738c528cfaa52043a68aa1144318605b418d01413136800b32cbce5b5ab72"
+      url "https://github.com/andrewmarous/trailmix/releases/download/v0.2.1/trailmix_0.2.1_darwin_amd64.tar.gz"
+      sha256 "55a4617cd3a63ff3871eba200441d65d526834aa9db4ef6016a2b2db2a61d452"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/andrewmarous/trailmix/releases/download/v0.2.0/trailmix_0.2.0_linux_arm64.tar.gz"
-      sha256 "ecde893dbfca0f45f36ece73e0e2b93626df36693718093ba95f93bd59169457"
+      url "https://github.com/andrewmarous/trailmix/releases/download/v0.2.1/trailmix_0.2.1_linux_arm64.tar.gz"
+      sha256 "dcfe2c30e886b5e15d22a64608e0cba51523551fb1f62511707097192503b6c9"
     end
     on_intel do
-      url "https://github.com/andrewmarous/trailmix/releases/download/v0.2.0/trailmix_0.2.0_linux_amd64.tar.gz"
-      sha256 "aff6d5fa3eada0a272bf646d16492ba8fa42516f80148a21e2c930d9a4996c25"
+      url "https://github.com/andrewmarous/trailmix/releases/download/v0.2.1/trailmix_0.2.1_linux_amd64.tar.gz"
+      sha256 "3b5833fa55abadd3f476edce5a66960c620e0fc2aad8a382bfcacb8f97f29000"
     end
   end
 
